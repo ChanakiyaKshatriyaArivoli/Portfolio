@@ -1,4 +1,3 @@
-import logo from "../assets/ck.png";
 import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter, FaThreads } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { Menu, X } from "lucide-react";
@@ -17,7 +16,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center px-4 md:px-8">
         {/* Logo on the Left */}
         <div className="flex items-center">
-          <img className="w-16 h-16" src={logo} alt="logo" />
+          <img className="w-16 h-16" src="../assets/ck.png" alt="logo" />
         </div>
 
         {/* Hamburger Menu for Mobile/Tablet */}
