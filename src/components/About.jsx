@@ -1,4 +1,3 @@
-import aboutImg from "../assets/CKSideProfileSquare.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -19,7 +18,7 @@ const About = () => {
           <div className="flex items-center justify-center">
             <img
               className="rounded-2xl"
-              src={aboutImg}
+              src="../assets/CKSideProfileSquare.jpg"
               alt="about"
               style={{
                 maskImage: "linear-gradient(to bottom, black 90%, transparent)",
