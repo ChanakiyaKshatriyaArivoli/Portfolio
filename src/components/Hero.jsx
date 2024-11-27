@@ -1,5 +1,4 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/CKHeroSquare.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -57,7 +56,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
+              src="../assets/CKHeroSquare.jpg"
               alt="Chanakiya"
               className="rounded-2xl"
               style={{
