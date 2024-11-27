@@ -9,7 +9,7 @@ name: Deploy React App to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]
   # Allows manual execution of this workflow
   workflow_dispatch:
 
