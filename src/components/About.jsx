@@ -1,4 +1,4 @@
-import aboutImg from "../assets/CKSideProfileSquare.JPG";
+import aboutImg from "../assets/CKSideProfileSquare.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
